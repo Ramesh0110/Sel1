@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="297175" started-at="2021-06-03T22:47:38 EDT" finished-at="2021-06-03T22:52:35 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="297175" started-at="2021-06-03T22:47:38 EDT" finished-at="2021-06-03T22:52:35 EDT">
+      <class name="automationpractice.tests.RegressionTest2">
+        <test-method status="PASS" signature="beforeAllTests()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="beforeAllTests" is-config="true" duration-ms="31" started-at="2021-06-03T22:47:38 EDT" finished-at="2021-06-03T22:47:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="10328" started-at="2021-06-03T22:47:38 EDT" finished-at="2021-06-03T22:47:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="39391" started-at="2021-06-03T22:47:48 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:48:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa.training.sh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzBBC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID401-->Sign in using valid email and wrong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6645" started-at="2021-06-03T22:48:28 EDT" finished-at="2021-06-03T22:48:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="6126" started-at="2021-06-03T22:48:34 EDT" finished-at="2021-06-03T22:48:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="37797" started-at="2021-06-03T22:48:40 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:49:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID402-->Sign in using invalid email and valid password ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6357" started-at="2021-06-03T22:49:18 EDT" finished-at="2021-06-03T22:49:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="6160" started-at="2021-06-03T22:49:25 EDT" finished-at="2021-06-03T22:49:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="34517" started-at="2021-06-03T22:49:31 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:50:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzabc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID403-->Sign in using invalid email and invalid password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6563" started-at="2021-06-03T22:50:05 EDT" finished-at="2021-06-03T22:50:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="5564" started-at="2021-06-03T22:50:12 EDT" finished-at="2021-06-03T22:50:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="35055" started-at="2021-06-03T22:50:17 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:50:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID404-->Sign in leaving blank email and valid password ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6615" started-at="2021-06-03T22:50:53 EDT" finished-at="2021-06-03T22:50:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="5659" started-at="2021-06-03T22:50:59 EDT" finished-at="2021-06-03T22:51:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="34951" started-at="2021-06-03T22:51:05 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:51:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa.training.sh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID405-->Sign in using valid email and leaving password field blank ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6492" started-at="2021-06-03T22:51:40 EDT" finished-at="2021-06-03T22:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="set_up" is-config="true" duration-ms="5580" started-at="2021-06-03T22:51:46 EDT" finished-at="2021-06-03T22:51:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="signInElmTEst" duration-ms="36466" started-at="2021-06-03T22:51:52 EDT" data-provider="getDataContent" finished-at="2021-06-03T22:52:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa.training.sh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCID406-->Sign In using valid email and valid password  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInElmTEst -->
+        <test-method status="PASS" signature="waitTime(org.testng.ITestResult)[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="waitTime" is-config="true" duration-ms="6655" started-at="2021-06-03T22:52:28 EDT" finished-at="2021-06-03T22:52:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInElmTEst status=SUCCESS method=RegressionTest2.signInElmTEst(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automationpractice.tests.RegressionTest2@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method status="PASS" signature="tearing_down()[pri:0, instance:automationpractice.tests.RegressionTest2@5b0abc94]" name="tearing_down" is-config="true" duration-ms="95" started-at="2021-06-03T22:52:35 EDT" finished-at="2021-06-03T22:52:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearing_down -->
+      </class> <!-- automationpractice.tests.RegressionTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

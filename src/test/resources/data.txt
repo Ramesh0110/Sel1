@@ -1,0 +1,7 @@
+username password
+qa.training.sh@gmail.com, xyzBBC
+r@gmail.com, Abc123
+xyz@gmail.com,  xyzAbc123
+ , Abc123
+qa.training.sh@gmail.com, 
+qa.training.sh@gmail.com, Abc123 
